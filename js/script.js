@@ -17,8 +17,8 @@ for (let i = 0; i < container.length; i++) {
 
     // Animate In
     container[i].addEventListener('mousemove', (e) => {
-        let xAxis = (window.innerWidth / 2 - e.pageX) / 100;
-        let yAxis = (window.innerHeight / 2 - e.pageY) / 100;
+        let xAxis = (window.innerWidth / 2 - e.pageX) / 70;
+        let yAxis = (window.innerHeight / 2 - e.pageY) / 70;
 
         currentCard.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
         currentCard.style.transition = `none`;
